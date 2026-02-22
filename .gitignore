@@ -1,0 +1,13 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files (contienen secretos)
+*.tfvars
+*.tfvars.json
+
+# Los archivos lock de terraform
+.terraform.lock.hcl
